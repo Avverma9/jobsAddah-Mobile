@@ -84,7 +84,7 @@ const Header = () => {
             <View style={[styles.logoMark, { backgroundColor: isDark ? '#1e40af' : '#e6eefc' }]}>
               <Text style={[styles.logoMarkText, { color: theme.text }]}>H</Text>
             </View>
-            <Text style={[styles.logoText, { color: theme.text }]}>HRS</Text>
+            <Text style={[styles.logoText, { color: theme.text }]}>JobsAddah</Text>
           </View>
 
           <View style={styles.right}>
