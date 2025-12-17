@@ -1,0 +1,77 @@
+/* Video.css */
+
+.all-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .name {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .name p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .download {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .download svg {
+    margin-right: 5px;
+  }
+  
+  .hr-belowvideos {
+    margin-top: 30px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Media Queries */
+  
+  /* For screens with a width less than 768px (e.g., mobile phones) */
+  @media (max-width: 767px) {
+    .all-item {
+      justify-content: center;
+    }
+  
+    .name {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  
+  /* For screens with a width between 768px and 1024px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .all-item {
+      justify-content: space-between;
+    }
+  
+    .name {
+      width: calc(50% - 20px);
+      max-width: none;
+    }
+  }
+  
+  /* For screens with a width greater than or equal to 1024px (e.g., desktops) */
+  @media (min-width: 1024px) {
+    .all-item {
+      justify-content: space-between;
+    }
+  
+    .name {
+      width: calc(33.33% - 20px);
+      max-width: none;
+    }
+  }
+  

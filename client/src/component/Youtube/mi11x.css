@@ -1,0 +1,106 @@
+
+.video-card {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .video-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .video-device p {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  .video-date p {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  .video-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .watchvideo-videos {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+.watchvideo-videos:hover {
+  letter-spacing: 0.20em;
+  background: rgb(255, 0, 183);
+  color: #fff;
+  width: auto;
+  box-shadow: 0 0 35px rgb(255, 0, 183);
+}
+
+
+
+
+
+  .watch-more {
+    display: inline-block;
+    margin-left: 1200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .watch-more a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .watch-more a:hover {
+    color: #007bff;
+  }
+  
+  .watch-more a svg {
+    margin-right: 5px;
+    font-size: 24px;
+  }
+  /* Video.css */
+
+/* Styles for Mobile Devices with a maximum width of 468px */
+@media (max-width: 468px) {
+    .video-card {
+        margin-top: 80px;
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+      padding: 10px;
+    }
+  
+    .watch-more {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .watch-more a {
+      font-size: 14px;
+    }
+  
+    .watch-more a svg {
+      font-size: 18px;
+    }
+  }
+  
